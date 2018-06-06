@@ -1,0 +1,46 @@
+a {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+a:not(:last-child) {
+    border-right: 1px solid #333;
+}
+
+.icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .nav a:not(:first-child) {
+        display: none;
+    }
+
+    .nav a {
+        border-right: 0px solid #333
+    }
+
+    .nav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /*.nav .responsive {*/
+    /*position: relative;*/
+    /*}*/
+    /*.nav .responsive .icon{*/
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*top: 0;*/
+    /*}*/
+    .nav.responsive {
+        position: relative;
+    }
+
+    .nav .responsive a {
+        display: block;
+        /*text-align: left;*/
+    }
+}

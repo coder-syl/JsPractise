@@ -1,0 +1,38 @@
+.openBar {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.siderBar {
+    position: fixed;
+    width: 0;
+    overflow: hidden;
+    z-index: 1;
+    height: 100%;
+    background-color: #0b0b0b;
+    transition: 0.5s;
+}
+.trans{
+    transition: 0.5s;
+}
+.siderBar .closeBar{
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.siderBar a {
+    display: block;
+    color: #818181;
+    padding: 10px 0 10px 10px;
+}
+
+@keyframes  fadeout{
+    from{
+        width: 0;
+    }
+    to{
+        width: 250px;
+    }
+}

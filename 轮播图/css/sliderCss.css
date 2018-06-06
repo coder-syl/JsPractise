@@ -1,0 +1,53 @@
+body{
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin-top: 100px;
+}
+.sliderContain{
+
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+.myslider{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.myslider img{
+    width: 100%;
+    height: 100%;
+}
+.sliderContain .prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 30px;
+}
+.sliderContain .next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 30px;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}

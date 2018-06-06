@@ -1,0 +1,20 @@
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.accordion {
+    width: 100%;
+    font-size: 20px;
+    background-color: #eee;
+}
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+}
+
+.accordion:hover, .accordion.active{
+    background-color: #ddd;
+}

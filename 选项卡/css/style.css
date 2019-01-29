@@ -1,0 +1,59 @@
+body {
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+}
+
+button {
+    list-style: none;
+    display: inline;
+    border: 1px solid #409EFF;
+    border-radius: 3px;
+    color: #f3f3f3;
+    padding: 10px;
+    background-color: #409EFF;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.tab {
+    height: 100px;
+    padding: 5px;
+}
+
+.dynamicTabs {
+    height: 100px;
+    padding-top: 10px;
+}
+
+.tabs .tab:not(:first-child) {
+    display: none;
+}
+
+.dynamicBut {
+    list-style: none;
+    display: inline;
+    border: 1px solid #409EFF;
+    border-radius: 3px;
+    color: #f3f3f3;
+    padding: 10px;
+    background-color: #409EFF;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.dynamicTab {
+    height: 100px;
+    padding: 5px;
+}
+
+.dynamicTabs .dynamicTab:not(:first-child) {
+    display: none;
+}
+
+.close {
+    padding-left: 10px;
+}
+
+.close:hover {
+    color: #848992;
+}

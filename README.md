@@ -16,6 +16,8 @@
 
 5. 手风琴
 
-	![手风琴](demoImages/手风琴.png)
+	![手风琴](demoImages/手风琴.gif)
 	
-6. 轮播图
+6. 标签页
+
+	![标签页](demoImages/标签页.gif)

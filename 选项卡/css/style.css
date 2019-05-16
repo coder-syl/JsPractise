@@ -1,5 +1,6 @@
 body {
     font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+    padding-left: 100px;
 }
 
 button {
@@ -15,7 +16,7 @@ button {
 }
 
 .tab {
-    height: 100px;
+    height: 30px;
     padding: 5px;
 }
 
@@ -42,7 +43,7 @@ button {
 }
 
 .dynamicTab {
-    height: 100px;
+    height: 30px;
     padding: 5px;
 }
 
@@ -56,4 +57,51 @@ button {
 
 .close:hover {
     color: #848992;
+}
+
+
+.beauty-div {
+    width: 300px;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.beautyBut {
+    float: left;
+    border-radius: 3px;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.beauty-line {
+    background: #409EFF;
+    bottom: 0;
+    width: 80px;
+    margin-left:10px;
+    clear: both;
+    height: 2px;
+    -webkit-transition: margin-left .25s;
+    transition: margin-left .25s;
+    will-change: margin-left;
+}
+
+.beautyTab {
+    height: 30px;
+    padding: 5px;
+}
+
+.beautyTabs {
+    height: 100px;
+    padding-top: 10px;
+}
+
+.beautyTabs .beautyTab:not(:first-child) {
+    display: none;
 }
